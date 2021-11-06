@@ -1,0 +1,23 @@
+{
+  "name": "official-website",
+  "version": "1.0.0",
+  "description": "official website of HITK ML AI department",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HITK-AIML/official-website.git"
+  },
+  "author": "\"Roshan Kumar\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HITK-AIML/official-website/issues"
+  },
+  "homepage": "https://github.com/HITK-AIML/official-website#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
