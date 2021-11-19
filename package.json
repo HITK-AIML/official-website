@@ -4,7 +4,7 @@
   "description": "official website of HITK ML AI department",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
