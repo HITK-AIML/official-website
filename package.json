@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "official website of HITK ML AI department",
   "main": "index.js",
+  "engines": {
+    "node": "16.x",
+    "npm": "6.x"
+  },
   "scripts": {
     "start": "node index.js"
   },
