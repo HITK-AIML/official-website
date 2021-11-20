@@ -1,0 +1,182 @@
+*
+{
+    margin: 0;
+    padding: 2PX;
+    font-family:'Poppins',sans-serif;
+}
+
+
+.logo
+{
+    width: 70px;
+    margin: 10px 0;
+    cursor: pointer;
+
+}
+
+.navbar
+{
+    background-color: #4dcdff;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.menu
+{
+    width: 80px;
+    cursor: pointer;
+    display: none;
+}
+
+nav
+{
+    
+    flex: 1;
+    text-align: right;
+    /* margin-bottom: 5px; */
+}
+nav ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    /* display: block; */
+    
+}
+nav ul li a 
+{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding:10px;
+    /* background-color:rgb(250, 122, 2); */
+}
+
+.sign
+{
+    background: none;
+    color: #ffff;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #ffff;
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    
+}
+.links
+{
+    padding: 40px;
+    /* background: #ee6c6c; */
+    /* box-shadow:2px 2px 2px rgb(255, 177, 105); */
+    width: 500px;
+    /* margin-bottom: 10px; */
+}
+
+.links a
+{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+
+.links ul
+{
+    position: relative;
+}
+
+.links ul li
+{
+    position: relative;
+    list-style: none;
+    display: table;
+    margin: 10px 0;
+    padding-left: 34px;
+    padding-right: 5px;
+}
+
+.links ul li::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 34px;
+    height: 34px;
+    background: transparent;
+    border-radius: 34px;
+    transition:cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition-delay: 0.5s;
+    border: 2px solid #03a9f4;
+    box-sizing: border-box;
+}
+
+
+.links ul li::after
+{
+    content: '';
+    position: absolute;
+    top: 13px;
+    left: 12px;
+    width: 6px;
+    height: 6px;
+    border-top: 2px solid rgb(214, 139, 0);
+    border-right: 2px solid rgb(199, 129, 0);
+    transform: rotate(45deg);
+    
+}
+.links ul li::hover::after
+{
+    transform: rotate(45deg) scale(1.5);
+}
+
+.links ul li p
+{
+    position: relative;
+    z-index: 10;
+    padding: 5px 10px;
+    color: #fff;
+}
+
+.classname
+{
+    display: flex;
+    border-radius: 50px;
+    /* padding: 5px; */
+    border:solid 2px black;
+    width: auto;
+   
+    /* margin-top: 5px; */
+    /* margin-bottom: 5px; */
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.classname h3
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+
+
+.classlogo
+{
+    width: 50px;
+    /* text-align: left; */
+    display: block;text-align: left;
+    /* style */
+}
+
+
