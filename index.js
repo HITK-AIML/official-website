@@ -13,6 +13,9 @@ app.use(express.static('public/img'));
 app.get('/', (req, res) =>{
     res.render('index');
 })
+app.get('/notification', (req, res) =>{
+    res.render('notification');
+})
 
 app.listen(port, ()=>{
     console.log('Server active');
