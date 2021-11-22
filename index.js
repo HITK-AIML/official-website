@@ -14,6 +14,10 @@ app.get('/', (req, res) =>{
     res.render('index');
 })
 
+app.get('/links', (req, res) =>{
+    res.render('links');
+})
+
 app.listen(port, ()=>{
     console.log('Server active');
 })

@@ -1,7 +1,8 @@
 *
 {
     margin: 0;
-    padding: 2PX;
+    padding: 0;
+    box-sizing: border-box;
     font-family:'Poppins',sans-serif;
 }
 
@@ -174,6 +175,7 @@ nav ul li a
 .classlogo
 {
     width: 50px;
+    padding: 5px;
     /* text-align: left; */
     display: block;text-align: left;
     /* style */
