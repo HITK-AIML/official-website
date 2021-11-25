@@ -18,6 +18,10 @@ app.get('/links', (req, res) =>{
     res.render('links');
 })
 
+app.get('/notification', (req, res) =>{
+    res.render('notification');
+})
+
 app.listen(port, ()=>{
     console.log('Server active');
 })

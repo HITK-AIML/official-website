@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    font-family: "Roboto",sans-serif;
+}
+
+.title {
+    position: absolute;
+width: 1395px;
+height: 806px;
+left: 0px;
+top: 85.36px;
+
+background: linear-gradient(287.15deg, rgba(255, 255, 255, 0.71) 0%, rgba(182, 233, 255, 0.58) 100%);
+border-radius: 40px 40px 0px 0px;
+height: 806px;
+width: 1395px;
+left: 0px;
+top: 85.3599853515625px;
+border-radius: [object Object]px;
+
+}
+
+#home{
+    position: absolute;
+    width: 59px;
+    height: 22px;
+    left: 704px;
+    top: 29px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    text-transform: uppercase;
+    
+    color: #6CD0FB;
+}
+#about{
+    position: absolute;
+width: 100px;
+height: 22px;
+left: 837px;
+top: 29px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #6CD0FB;
+}
+#contact{
+    position: absolute;
+width: 124px;
+height: 22px;
+left: 1005px;
+top: 29px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #6CD0FB;
+}
+div h1{
+    position: absolute;
+    width: 900px;
+    height: 28px;
+    left: 88px;
+    top: 90px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.27em;
+    text-transform: uppercase;
+background: linear-gradient(180deg, hsla(223, 100%, 77%, 0.849) 45.31%, rgba(147, 215, 255, 0.404) 100%);
+-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+div h2{
+    position: absolute;
+width: 553px;
+height: 85px;
+left: 88px;
+top: 130px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 85px;
+/* identical to box height, or 133% */
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: rgba(68, 68, 68, 0.59);
+}
+
+.buttons .assignment {
+    position: absolute;
+width: 288px;
+height: 50px;
+left: 88px;
+top: 344px;
+background: #FFFFFF;
+box-shadow: 0px 7px 20px rgba(121, 188, 207, 0.11);
+border-radius: 100px;
+filter: drop-shadow(0px 4px 1px rgba(0, 0, 0, 0.568));
+}
+
+.buttons .notice{
+    position: absolute;
+width: 288px;
+height: 50px;
+left: 88px;
+top: 424px;
+background: #FFFFFF;
+box-shadow: 0px 7px 20px rgba(121, 188, 207, 0.11);
+border-radius: 100px;
+filter: drop-shadow(0px 4px 1px rgba(0, 0, 0, 0.568));
+}
+
+.buttons .events{
+    position: absolute;
+width: 288px;
+height: 50px;
+left: 88px;
+top: 506px;
+background: #FFFFFF;
+box-shadow: 0px 7px 20px rgba(121, 188, 207, 0.11);
+border-radius: 100px;
+filter: drop-shadow(0px 4px 1px rgba(0, 0, 0, 0.568));
+}
+
+.image .robot{
+    position: absolute;
+width: 692px;
+height: 465px;
+left: 698px;
+top: 315px;
+background: url(.png);
+}
+
+.image .vector{
+    position: absolute;
+width: 876.86px;
+height: 1029.14px;
+left: 251.35px;
+top: -39px;
+background: url(.png);
+
+}
+
+
